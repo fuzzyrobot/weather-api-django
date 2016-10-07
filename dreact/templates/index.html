@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Red Weather</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+    <link rel="stylesheet" href="/static/bundles/styles.css">
+</head>
+<body>
+{% load render_bundle from webpack_loader %}
+<div id="react-app"></div>
+{% render_bundle 'main' %}
+</body>
+</html>
