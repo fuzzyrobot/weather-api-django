@@ -15,13 +15,13 @@ class Main extends Component {
                         <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                             <ul className="nav navbar-nav">
                                 <li>
-                                    <Link to="/graph" activeClassName={main.active}>
-                                        Graph
+                                    <Link to="/graphs" activeClassName={main.active}>
+                                        Graphs
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link to="/table" activeClassName={main.active}>
-                                        Table
+                                    <Link to="/tables" activeClassName={main.active}>
+                                        Tables
                                     </Link>
                                 </li>
                             </ul>

@@ -1,10 +1,11 @@
 from django.http import HttpResponse
+
 import requests
 
 
 def get_weather(request):
     weather = 'weather now available lol'
-    url = 'http://api.openweathermap.org/data/2.5/weather?q=London,uk'
+    url = 'http://api.openweathermap.org/data/2.5/forecast?q=London,UK&mode=json'
     auth = auth_openweathermap()
     req_url = url + '&APPID=' + auth
     call_weather = requests.get(req_url)

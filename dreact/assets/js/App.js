@@ -4,8 +4,8 @@ import { createHashHistory } from 'history';
 import { render } from 'react-dom';
 import Main from './main/index.js';
 import Home from './home/index.js';
-import Table from './table/index.js';
-import Graph from './graph/index.js';
+import Tables from './tables/index.js';
+import Graphs from './graphs/index.js';
 
 const appHistory = useRouterHistory(createHashHistory)({ queryKey: false });
 class App extends React.Component {    
@@ -14,8 +14,8 @@ class App extends React.Component {
           <Router history={appHistory}>
             <Route component={Main}>
               <Route path="/" component={Home}/>
-              <Route path="/graph" component={Graph}/>
-              <Route path="/table" component={Table}/>
+              <Route path="/graphs" component={Graphs}/>
+              <Route path="/tables" component={Tables}/>
             </Route>
           </Router>
         );

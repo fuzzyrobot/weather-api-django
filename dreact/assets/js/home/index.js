@@ -1,8 +1,15 @@
 import React, { Component } from 'react';
+import Tables from '../tables/index.js';
+import Graphs from '../graphs/index.js';
 
 class Home extends Component {
     render(){
-        return (<h1>Home page!</h1>);
+        return (
+          <div>
+            <Tables />
+            <Graphs />
+          </div>
+        );
     }
 }
 
