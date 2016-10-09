@@ -6,11 +6,10 @@ class Main extends Component {
     render(){
         return(
             <div>
-                <h1>Red Weather</h1>
                 <nav className="navbar navbar-default">
                     <div className="container-fluid">
                         <div className="navbar-header">
-                            <Link to="#" className="navbar-brand">Fantastic Weather</Link>
+                            <Link to="#" className="navbar-brand">Perfect Weather</Link>
                         </div>
                         <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                             <ul className="nav navbar-nav">

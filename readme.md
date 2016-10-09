@@ -10,3 +10,6 @@ Stylesheets and javascript are compiled using webpack. Styles are imported on a 
 OpenWeatherMap
 
 http://history.openweathermap.org/data/2.5/history/city?id=2885679&type=hour
+
+###Graph
+Using chartjs (via react-chartjs)

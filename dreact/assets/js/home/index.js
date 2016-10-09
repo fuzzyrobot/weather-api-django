@@ -6,8 +6,8 @@ class Home extends Component {
     render(){
         return (
           <div>
-            <Tables />
             <Graphs />
+            <Tables />
           </div>
         );
     }
