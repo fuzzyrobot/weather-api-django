@@ -1,0 +1,4 @@
+Django==1.9.7
+django-webpack-loader==0.3.3
+requests==2.11.1
+wheel==0.24.0
