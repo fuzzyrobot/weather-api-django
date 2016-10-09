@@ -1,4 +1,6 @@
-#Main tech used
+#Weather API using Django and React
+
+##Main tech used
 `Django`, `React`, `React-router`, `chart.js`, `Webpack`, `Bootstrap`.
 
 ###Front-end compilation with Webpack
@@ -8,12 +10,9 @@ Run `webpack --watch` to compile styles and js on the fly during develop
 
 Stylesheets and javascript are compiled using webpack. Styles are imported on a component bases and called using the syntax className={style.class} where style is the name of the imported stylesheet and class is the referenced class name.
 
-Bootstrap is also used.
-
 ###Weather API
-OpenWeatherMap
-
-http://history.openweathermap.org/data/2.5/history/city?id=2885679&type=hour
+Uses OpenWeatherMap.
+Our app receives `GET` requests at the endpoint `/weather`
 
 ###Graph
 Using chartjs (via react-chartjs)
@@ -26,3 +25,22 @@ Run tests from the top level dreact folder:
 ###Server
 Run the server from the top level dreact folder:
 `./manage.py runserver`
+
+###Setup
+Create a virtual environment at top directory:
+`virtualenv venv`
+
+Install python modules from requirements:
+`pip install requirements.txt`
+
+Install npm modules from dreact directory:
+`cd dreact`
+`npm install`
+
+Compile javascript:
+`webpack`
+
+Start server:
+`./manage.py runserver`
+
+Visit `localhost:8000` to view app

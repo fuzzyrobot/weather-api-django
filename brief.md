@@ -21,15 +21,15 @@ Make the component easy to embed into other projects
 
 
 #TODO: 
-[] Set up Django
-[] Connect to weather api
-[] Use React to show weather data
-[] Find charting and table library
-[] Put data into table
-[] Put data into bar chart
-[] Mobile responsive (bootstrap)
-[] Ask about GitHub.
-[] Unit tests on backend
+[y] Set up Django
+[y] Connect to weather api
+[y] Use React to show weather data
+[y] Find charting and table library
+[n] Put data into table
+[y] Put data into bar chart
+[?] Mobile responsive (bootstrap)
+[y] Ask about GitHub.
+[y] Unit tests on backend
 
 Focus on fast development. Do not do extra goals.
 
