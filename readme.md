@@ -1,6 +1,6 @@
-#Weather API using Django and React
+#Weather API Challenge
 
-##Main tech used
+###Main tech used
 `Django`, `React`, `React-router`, `chart.js`, `Webpack`, `Bootstrap`.
 
 ###Front-end compilation with Webpack
