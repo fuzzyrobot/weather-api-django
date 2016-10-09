@@ -42,8 +42,8 @@ class Tables extends Component {
         return (
             <div>
                 <h1>Tables</h1>
-                <button onClick={this.handleClick}>
-                    Say hi
+                <button className="btn btn-default" onClick={this.handleClick}>
+                    Refresh Data
                 </button>
                 <div>
                     {JSON.stringify(this.allData)}
