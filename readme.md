@@ -1,7 +1,7 @@
 #Weather API Challenge
 
 ###Main tech used
-`Django`, `React`, `React-router`, `chart.js`, `Webpack`, `Bootstrap`.
+`Django`, `React`, `React-router`, `ES6`, `chart.js`, `Webpack`, `Bootstrap`, `Python-2.7`.
 
 ###Front-end compilation with Webpack
 Run `webpack` from the top level dreact folder to compile.
@@ -29,7 +29,7 @@ Run the server from the top level dreact folder:
 `./manage.py runserver`
 
 ###Setup
-This project was set up using `virtualenv`. To install:
+It is advised to use a virtual environment such as `virtualenv`. To install:
 
 `pip install virtualenv`
 
