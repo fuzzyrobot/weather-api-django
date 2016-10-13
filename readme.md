@@ -17,7 +17,6 @@ Our app receives `GET` requests at the endpoint `/weather`
 ###Graph
 Using chartjs (via react-chartjs)
 
-
 ###Test
 Run tests from the top level dreact folder:
 `./manage.py test`
@@ -27,20 +26,26 @@ Run the server from the top level dreact folder:
 `./manage.py runserver`
 
 ###Setup
+This project was set up using `virtualenv`. To install:
+`pip install virtualenv`
+
 Create a virtual environment at top directory:
 `virtualenv venv`
 
-Install python modules from requirements:
-`pip install requirements.txt`
+Activate the virtual environment:
+`source venv/bin/activate`
+
+Install python modules from requirements file:
+`pip install -r requirements.txt`
 
 Install npm modules from dreact directory:
 `cd dreact`
 `npm install`
 
-Compile javascript:
+Compile javascript and styles (from same directory):
 `webpack`
 
-Start server:
+Start server (from same directory):
 `./manage.py runserver`
 
 Visit `localhost:8000` to view app
